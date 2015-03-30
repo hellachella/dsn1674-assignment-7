@@ -24,6 +24,7 @@ h1{
 	width: 100%;
 	margin: 0;
 	padding: 0.5em;
+	font-size: 3em;
 }
 
 
@@ -39,6 +40,7 @@ nav ul{
 	box-sizing: border-box;
 	margin: 0;
 	overflow: hidden;
+	font-size:1.5em;
 }
 
 nav ul li{
@@ -67,8 +69,11 @@ nav ul li{
 	margin: 0;
 	color: #fff;
 	padding-top:10em;
+	padding-bottom: 1em;
 	text-align: center;
 	width: 100%;
+	font-size: 1.5em;
+	text-shadow: 4px 2px 6px rgba(150, 150, 150, 1);
 }
 
 /*Gallery*/
@@ -97,16 +102,19 @@ figcap{
 	position: absolute;
 	bottom: 1em;
 	text-align: center;
+	color: #fff;
+	font-size: 1.5em;
 }
 
 /*Footer*/
+
 footer{
 		background-color: rgba(81,34,0,0.5);
 		width: 100%;
 }
 
-
 footer img{
-	width: 2.5em;
-	margin: 0 auto;
+margin: 0 auto;
+width: 3em;
+display: block;
 }
