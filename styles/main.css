@@ -49,6 +49,7 @@ nav ul li{
 	margin: 0px;
 	box-sizing: border-box;
 	float: left;
+	text-align: center;
 
 }
 
@@ -62,10 +63,34 @@ nav ul li{
 	margin: 0;
 }
 
-h2{
+.banner h2{
 	margin: 0;
 	color: #fff;
 	padding-top:10em;
 	text-align: center;
 	width: 100%;
+}
+
+/*Gallery*/
+
+.gallery h2{
+	width: 50%;
+	float: left;
+}
+
+.gallery img{
+	width: 50%;
+	float: left;
+}
+
+/*Footer*/
+footer{
+		background-color: rgba(81,34,0,0.5);
+		width: 100%;
+}
+
+
+footer img{
+	width: 2.5em;
+	margin: 0 auto;
 }
