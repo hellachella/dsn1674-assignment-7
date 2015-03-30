@@ -19,10 +19,14 @@ header{
 }
 
 h1{
+	background-image: url("../images/beetle-graphic.svg"), url("../images/beetle-graphic.svg");
+	background-repeat: no-repeat;
+	background-position:left, right;
+	background-size: 1em auto, 1em auto;
 	color: #512200;
 	text-align: center;
-	width: 100%;
-	margin: 0;
+	width: 90%;
+	margin: 0 auto;
 	padding: 0.5em;
 	font-size: 3em;
 }
@@ -90,20 +94,25 @@ figure{
 	background-color: green;
 	margin: 0;
 	position: relative;
+
 }
 figure img{
 	width: 100%;
 	display:block;
 }
 
-figcap{
+figcaption{
+
 	float: left;
-	width: 100%;
+	display: block;
 	position: absolute;
 	bottom: 1em;
 	text-align: center;
 	color: #fff;
 	font-size: 1.5em;
+	background-color: #214d00;
+	padding: 0.5em;
+	border-radius:50px;
 }
 
 /*Footer*/
