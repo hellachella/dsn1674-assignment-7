@@ -7,6 +7,11 @@ html {
 	box-sizing: inherit;
 }
 
+body{
+	margin: 0;
+	padding: 0;
+}
+
 
 /*Header Styling*/
 header{
@@ -15,9 +20,34 @@ header{
 
 h1{
 	color: #512200;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 0.5em;
 }
 
 
 
 
 /*Nav Styling*/
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	color: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav ul li{
+	display: inline;
+	background-color: rgba(81,34,0,0.3);
+	width: 25%;
+	padding: 0.5em;
+	margin: 0px;
+	box-sizing: border-box;
+	float: left;
+
+}
