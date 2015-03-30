@@ -59,6 +59,16 @@ nav ul li{
 
 }
 
+a, a:visited{
+	color: #fff;
+}
+
+a:hover li{
+	background-color: rgba(81,34,0,1);
+}
+
+
+
 
 /*Banner*/
 
