@@ -7,6 +7,17 @@ html {
 	box-sizing: inherit;
 }
 
+
+/*Header Styling*/
+header{
+	background-image: url("../images/subtle_white_mini_waves.png");
+}
+
 h1{
 	color: #512200;
 }
+
+
+
+
+/*Nav Styling*/
