@@ -51,3 +51,21 @@ nav ul li{
 	float: left;
 
 }
+
+
+/*Banner*/
+
+.banner{
+	background-image: url("../images/gravel.jpg");
+	background-size: 100%, auto;
+	display: block;
+	margin: 0;
+}
+
+h2{
+	margin: 0;
+	color: #fff;
+	padding-top:10em;
+	text-align: center;
+	width: 100%;
+}
