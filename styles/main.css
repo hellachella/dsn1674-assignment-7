@@ -10,6 +10,9 @@ html {
 body{
 	margin: 0;
 	padding: 0;
+	-webkit-transition: all 5s ease;
+				-moz-transition: all .5s ease;
+				transition: all 1s ease;
 }
 
 
@@ -126,10 +129,10 @@ figcaption{
 	position: absolute;
 	width: 60%;
 	bottom: 1em;
-	left: 20%;
+	left: 25%;
 	text-align: center;
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1em;
 	background-color: #388200;
 	background-image: linear-gradient(to bottom, #6fc000, #388200);
 	padding: 0.5em;
@@ -137,14 +140,13 @@ figcaption{
 }
 
 
-		@media only screen and (min-width: 320px){
+		@media only screen and (min-width: 600px){
 
 			figcaption{
-				font-size: 1em;
-				width: 65%
-				margin-left: 17.5%;
-				margin-right: 17.5%;
-				color: red;
+				font-size: 1.2em;
+				width: 20%
+				margin-left: 40%;
+				margin-right: 40%;
 			}
 
 
