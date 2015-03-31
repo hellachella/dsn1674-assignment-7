@@ -41,7 +41,7 @@ nav ul{
 	box-sizing: border-box;
 	margin: 0;
 	overflow: hidden;
-	font-size:1.5em;
+	font-size: 110%;
 }
 
 nav ul li{
