@@ -117,9 +117,16 @@ figcaption{
 	text-align: center;
 	color: #fff;
 	font-size: 1.3em;
-	background-color: #214d00;
+	background-color: #388200;
+	background-image: linear-gradient(to bottom, #6fc000, #388200);
 	padding: 0.5em;
-	border-radius:15px;
+	border-radius:20px;
+}
+
+a:hover figcaption{
+	background-color: #388200;
+	background-image: linear-gradient(to bottom, #388200, #214d00);
+
 }
 
 /*Footer*/
