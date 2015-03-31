@@ -16,6 +16,7 @@ body{
 /*Header Styling*/
 header{
 	background-image: url("../images/subtle_white_mini_waves.png");
+	box-sizing: border-box;
 }
 
 h1{
@@ -128,7 +129,7 @@ figcaption{
 	left: 20%;
 	text-align: center;
 	color: #fff;
-	font-size: 1.3em;
+	font-size: 1.3rem;
 	background-color: #388200;
 	background-image: linear-gradient(to bottom, #6fc000, #388200);
 	padding: 0.5em;
